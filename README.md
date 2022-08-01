@@ -21,7 +21,7 @@
 ***data***:  
 * 该文件是科大讯飞提供的数据，包括test(待预测并提交的数据)，train（全部训练数据）、train1、train2则是本人训练过程中使用到的数据，提交实例文件则是科大讯飞规定需要提交的数据格式。
 
-***scibert***:  
+[***scibert***](https://github.com/huggingface/transformers):  
 * 该文件是使用其他的项目相关领域的bert预训练模型（scibert），训练效果同Bert_Genrator相近。***Bert_Genrator、Bert_Pretrain代码都有相应的解释，由于scibert文件和Bert_Pretrain同前两个文件代码雷同过多，因此没有过多去赘述，可参考前两个文件的代码。***
 
 ###  **由于github上传文件大小由限制，因此将数据文件以及模型参数文件均已删除**
