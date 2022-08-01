@@ -1,0 +1,6 @@
+d2l==0.17.5
+numpy==1.23.1
+pandas==1.2.4
+scikit_learn==1.1.1
+torch==1.10.2+cu113
+transformers==3.0.0

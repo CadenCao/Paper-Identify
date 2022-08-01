@@ -1,0 +1,3 @@
+该文件是使用了其他预料对Bert模型进行深度预训练，包括两个文件Pretrain_task和pretrained_plus.params文件，其中Pretrain_task文件是继续预训练模型，
+pretrained_plus.params是预训练出的参数，由于我是用的预料是全部训练数据，导致结果并不好，故没有过多的探究深度预训练，关于继续深度学习，需要对Bert由足够的理解
+，这里我推荐《动手深度学习》，里面介绍了较为详细的介绍Bert预训练两大任务。

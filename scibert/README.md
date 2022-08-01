@@ -1,0 +1,5 @@
+该文件是使用了不同的scibert预训练模型，其中config.json、vocab.txt、pytorch_model.bin是原始文件，mlp.params
+mlp.params1、mlp.params_ce是微调后生成的模型参数文件，sci_result_predict是预测数据生成的文件（同bert_predict文件下的result_predict文件）
+。scibert_data_preprocess、scibert_fine_tune、scibert_predict的作用分别同Bert_Genrator文件下的
+data_preprocess、bert_fine_tune、bert_load.但不同的是对于原始数据数据我这里使用的是hugging face框架下面的transformers类。
+最终模型预测结果同Bert_Genrator差距不大，均在0.9左右。
