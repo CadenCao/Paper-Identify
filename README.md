@@ -1,10 +1,10 @@
 # [科大讯飞论文识别算法比赛](https://challenge.xfyun.cn/topic/info?type=abstract&option=cstd)（2022.7）
 ## 这里使用了亚马逊提供的bert_small预训练模型、scibert预训练模型、传统机器学习模型（主要是TF-IDF）进行集成预测。
 ### 共包括一下几个文件:
- ***bert.base.torch***：  
+ [***bert.base.torch***](http://d2l-data.s3-accelerate.amazonaws.com/bert.base.torch.zip)：  
 * 该文件是亚马逊提供的bert_base模型，12层transformers、mutil_head为12，隐藏层维度为768，包括两个文件,文件pretrained.params是预训练模型参数，3060、6g使用该模型时每次batch_size只能设置为1.使用前4个transformers、8个多头，每个batch_size也只能最高设为20，导致训练时常过长。  
 
-***bert.small.torch***：  
+[***bert.small.torch***](http://d2l-data.s3-accelerate.amazonaws.com/bert.small.torch.zip)：  
 * 该文件是亚马逊提供的bert_small模型，2层transformers、mutil_head为4，隐藏层维度为512，同样包括两个文件,文件pretrained.params是预训练模型参数，每个batch_size也只能最高可达300，如果GPU不行的话可以尝试该模型。  
 	
 ***Bert_Genrator***：  
